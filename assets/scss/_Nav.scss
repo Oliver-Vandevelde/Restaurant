@@ -1,0 +1,64 @@
+.backgroundOn{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(7, 65, 88, 1);
+    transition: 0.5s;
+    .navbar-brand{
+        padding-left: 20px;
+    }
+    a{
+        color: lightgrey;
+        text-shadow: 2px 2px 5px black;
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-right: 10%;
+        li{
+            padding: 0 10px;
+            a{
+                color: lightgrey;
+                text-shadow: 2px 2px 5px black;
+            }
+            a:hover{ 
+                text-shadow: 2px 2px 5px black;
+                background-color: rgb(6, 49, 66);
+                box-shadow: inset 2px 2px 5px black;
+            }
+        }
+    }
+}
+.backgroundOff{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(7, 65, 88, 0);
+    transition: 0.5s;
+    .navbar-brand{
+        padding-left: 20px;
+    }
+    a{
+        color: lightgrey;
+        text-shadow: 2px 2px 5px black;
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-right: 10%;
+        li{
+            padding: 0 10px;
+            a{
+                color: lightgrey;
+                text-shadow: 2px 2px 5px black;
+            }
+            a:hover{ 
+                text-shadow: 2px 2px 5px black;
+                background-color: rgb(6, 49, 66);
+                box-shadow: inset 2px 2px 5px black;
+            }
+        }
+    }
+}
