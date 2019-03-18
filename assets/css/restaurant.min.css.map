@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/restaurant.scss"
+    ],
+    "names": [],
+    "file": "restaurant.min.css"
+}
